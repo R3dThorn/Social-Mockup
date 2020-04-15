@@ -2,20 +2,39 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <link href="./styles.css" rel="spreadsheet" type="text/css"/>
+        <!-- <link href="styles.css" rel="stylesheet" type="text/css"/> -->
+        <script src="https://kit.fontawesome.com/ce9c73003c.js" crossorigin="anonymous"></script>        
+        <title>Fakebook: Profile</title>
     </head>
     <body>
         <header>
-            <div class="header">
-                <h1>Your page name</h1>
-                <h2>Website</h2>
-                <ul>
-                    <li class="social-buttons" id="like-button">Like</li>
-                    <li class="social-buttons">Follow</li>
-                    <li class="social-buttons">Message</li>
-                    <li class="social-buttons">...</li>
-                </ul>
-            </div>
+                <div class="profile-pic"><img src="https://st3.depositphotos.com/4111759/13425/v/450/depositphotos_134255710-stock-illustration-avatar-vector-male-profile-gray.jpg" alt="Profile Picture"></div>
+                <div class="nav-bar">
+                    <h1>Your page name</h1>
+                    <h2>Website</h2>
+                    <ul class="social-buttons">
+                        <li id="like-button">
+                            <span style="color: #2C354F;">
+                                <i class="fas fa-thumbs-up fa-sm" aria-hidden="true"></i>
+                            </span>
+                            Like
+                        </li>
+                        <li>Follow</li>
+                        <li>
+                            <span style="color: #2C354F"><i class="fas fa-comment-alt"></i></span>Message
+                        </li>
+                        <li id="ellipsis">...</li>
+                    </ul>
+                </div>
+                <div class="nav-bar">
+                    <ul class="profile-buttons">
+                        <li>Timeline</li>
+                        <li>About</li>
+                        <li>Welcome</li>
+                        <li>FWB</li>
+                        <li>More</li>
+                    </ul>
+                </div>
         </header>
     </body>
 </html>
