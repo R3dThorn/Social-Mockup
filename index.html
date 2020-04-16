@@ -2,39 +2,168 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <!-- <link href="styles.css" rel="stylesheet" type="text/css"/> -->
+        <link href="./assets/styles.css" rel="stylesheet" type="text/css"/>
         <script src="https://kit.fontawesome.com/ce9c73003c.js" crossorigin="anonymous"></script>        
         <title>Fakebook: Profile</title>
     </head>
     <body>
+        <!-- This is for the header -->
         <header>
-                <div class="profile-pic"><img src="https://st3.depositphotos.com/4111759/13425/v/450/depositphotos_134255710-stock-illustration-avatar-vector-male-profile-gray.jpg" alt="Profile Picture"></div>
-                <div class="nav-bar">
+            <div class="profile-pic"></div>
+            <section>
+                <div class="title">
                     <h1>Your page name</h1>
-                    <h2>Website</h2>
-                    <ul class="social-buttons">
+                    <h3>Website</h3>
+                </div>
+                <div class="social">
+                    <ul class="nav-bar">
                         <li id="like-button">
-                            <span style="color: #2C354F;">
-                                <i class="fas fa-thumbs-up fa-sm" aria-hidden="true"></i>
-                            </span>
-                            Like
+                            <span style="color: #2C354F;"><i class="fas fa-thumbs-up fa-sm" aria-hidden="true"></i>
+                            </span> Like 
                         </li>
-                        <li>Follow</li>
                         <li>
-                            <span style="color: #2C354F"><i class="fas fa-comment-alt"></i></span>Message
+                            <span style="color: #2C354F"><i class="fas fa-comment-alt"></i></span> Message 
                         </li>
-                        <li id="ellipsis">...</li>
+                        <li> Follow </li>
+                        <li> ... </li>
                     </ul>
-                </div>
-                <div class="nav-bar">
-                    <ul class="profile-buttons">
-                        <li>Timeline</li>
-                        <li>About</li>
-                        <li>Welcome</li>
-                        <li>FWB</li>
-                        <li>More</li>
-                    </ul>
-                </div>
+                    </div>
+            </section>
         </header>
+        <section class="bot">
+            <ul class="profile nav-bar">
+                <li>Timeline</li>
+                <li>About</li>
+                <li>Welcome</li>
+                <li>FWB</li>
+                <li>More</li>
+            </ul>
+        </section>
+        <!-- This is for the 2 columns -->
+        <div class="row">
+            <div class="column" id="left-column">
+                <section class="info-block">
+                    <div>
+                        <h4>About Your page name</h4>
+                        <p>Lorem ipsum dolor sit amet timeti oergo sum Lorem ipsum dolor sit amet timeti dolor sit amet timeti</p>
+                    </div>
+                    <h5>your website</h5>
+                </section>
+                <section class="info-block">
+                    <div class="about-bar">
+                        <h4>About<span>&gt;</span></h4>
+                    </div>
+                    <div>
+                        <h4>Your Address</h4>
+                        <h4>City, County</h4>
+                    </div>
+                    <h4>Add phone number</h4>
+                </section>
+                <section class="info-block">
+                    <h4>Apps</h4>
+                    <div>
+                        <h5>Welcome</h5>
+                    </div>
+                    <div>
+                        <h5>FWB</h5>
+                    </div>
+                    <div>
+                        <h5>Livestream</h5>
+                    </div>
+                </section>
+                <section class="info-block">
+                    <h4>Photos<span>&gt;</span></h4>
+                    <div class="blank-blue"></div>
+                    <div class="blank-blue"></div>
+                    <div class="blank-blue"></div>
+                    <div class="blank-blue"></div>
+                    <div class="blank-blue"></div>
+                    <div class="blank-blue"></div>
+                    <div class="blank-blue"></div>
+                </section>
+                <ul class="copyright">
+                    <li>English (US)</li>
+                    <li>Privacy</li>
+                    <li>Terms</li>
+                    <li>Cookies</li>
+                    <li>More</li>
+                    <li>Fakebook&copy;2020</li>
+                </ul>
+            </div>
+            <div class="column" id="right-column">
+                <section class="info-block">
+                    <div class="sm-profile-pic"></div>
+                    <div>
+                        <h4>Your page name <span>changed their <a href="https://images-na.ssl-images-amazon.com/images/I/91b6aYwjwjL._SL1425_.jpg">cover photo</a>.</span></h4>
+                        <h4>3 minutes ago</h4>
+                    </div>
+                    <div class="blue-background"></div>
+                    <div>
+                        <ul class="dots">
+                            <li>Like</li>
+                            <li>Comment</li>
+                            <li>Subscribe</li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="info-block">
+                    <div class="sm-profile-pic"></div>
+                    <div>
+                        <h4>Your page name</h4>
+                        <h4>December 12, 2013</h4>
+                    </div>
+                    <div>
+                        <p>Lorem ipsum dolor sit amet timeti ergo sum Lorem upsum dolor sit amet timeti dolor sit amet timeti imeti oergo sum imeti ergo sum</p>
+                    </div>
+                    <div>
+                        <ul class="dots">
+                            <li>Like</li>
+                            <li>Comment</li>
+                            <li>Subscribe</li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="info-block">
+                    <div class="sm-profile-pic"></div>
+                    <div>
+                        <h4>Your page name <span>created an event.</span></h4>
+                        <h4>september 3, 3013</h4>
+                    </div>
+                    <div class="blue-background">
+                        <div class="info-fuck">
+                            <h5>Event name</h5>
+                            <h5>Tuesday, September 3, 2013 at 6:00pm</h5>
+                            <h5>Adress, City, Country, 1051</h5>
+                            <button>Join</button>
+                        </div>
+                    </div>
+                    <div>
+                        <ul class="dots">
+                            <li>Like</li>
+                            <li>Comment</li>
+                            <li>Get Notifications</li>
+                            <li>Subscribe</li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="info-block">
+                    <div class="sm-profile-pic"></div>
+                    <div>
+                        <h4>Your page name</h4>
+                        <h4>December 12, 2013</h4>
+                    </div>
+                    <div>
+                        <p>fuck fuck fuck fuk fuck fuck</p>
+                    </div>
+                    <div>
+                        <ul class="dots">
+                            <li>Like</li>
+                            <li>Comment</li>
+                            <li>Subscribe</li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+        </div>
     </body>
 </html>
