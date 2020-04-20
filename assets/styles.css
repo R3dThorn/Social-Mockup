@@ -91,7 +91,9 @@ header{
 }
 .info-block{
     background-color: #ffffff;
-    padding: 2px 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
     margin-bottom: 10px;
     border: 1px solid rgba(131, 131, 131, 0.5);
     overflow: hidden;
